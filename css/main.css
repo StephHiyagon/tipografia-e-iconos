@@ -1,0 +1,174 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.margin{
+  margin-right:1rem;
+}
+
+.barra{
+  font-size: 2.25rem;
+  color:rgba(0,0,0,.15);
+  position: relative;
+  top:-0.5625rem;
+}
+
+.final{
+  position: relative;
+  left: 12.5rem;
+  top:0.3125rem;
+}
+
+img{
+  position:relative;
+  top:0.3125rem;
+}
+
+.izquierda, .footizq{
+  display:inline-block;
+  position:relative;
+}
+
+.derecha, .footder {
+  float:right;
+}
+
+.circle{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: green;
+  border-radius: 50%;
+  display:inline-block;
+  color:white;
+  text-align: center;
+  position: relative;
+  top:-0.75rem;
+  box-sizing: border-box;
+  padding: 0.5625rem;
+}
+
+.me{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.foto{
+  position: relative;
+  width: 4.375rem;
+  height: 4.375rem;
+  left: 5.6875rem;
+  display: inline-block;
+}
+
+h5{
+  display: inline-block;
+  margin:0;
+  position: relative;
+  top: -2.5rem;
+  left: 5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h6{
+  display: inline-block;
+  margin:0;
+  position: relative;
+  top: -1.25rem;
+  left: -3.75rem;
+  font-weight: lighter;
+  font-size: 0.875rem;
+}
+
+.date{
+  position: relative;
+  left: -14.3125rem;
+  font-weight: lighter;
+  font-size: 0.875rem;
+}
+
+.time{
+  position: relative;
+  left: -13.75rem;
+  font-weight: lighter;
+  font-size: 0.875rem;
+}
+
+h1{
+  position:relative;
+  left:5.6875rem;
+  width:73%;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.parrafo{
+  position:relative;
+  left:5.6875rem;
+  width:80%;
+  text-align: justify;
+  line-height: 2;
+  margin-bottom: 1.25rem;
+}
+
+section{
+  margin-left:3.125rem;
+  margin-top: 2.5rem;
+  overflow:auto;
+}
+
+.footizq{
+  position:relative;
+  left:5.6875rem;
+  margin-top: 1.0625rem;
+  margin-left: 2rem;
+}
+
+.verde{
+  position:relative;
+  top:-0.5625rem;
+  left:12.6875rem;
+  color:green;
+  display: inline-block;
+  width: 12.5rem;
+  font-weight: bold;
+}
+
+.gris{
+  position:relative;
+  top:0.6875rem;
+  color:gray;
+  display: inline-block;
+  width: 18.75rem;
+  font-weight: bold;
+}
+
+.original{
+  color:rgba(0,0,0,.5);
+}
+
+.celeste{
+  color:rgba(62, 221, 249,0.5);
+  position:relative;
+  left:12.5rem;
+}
+
+.azul{
+  color:rgba(47, 78, 252,0.5);
+  position:relative;
+  left:12.5rem;
+}
+
+.icono{
+  cursor:pointer;
+}
+
+footer{
+  width: 100%;
+  border-top: 1px solid gray;
+  margin-bottom: 1.25rem;
+  padding:0.3125rem;
+}
