@@ -45,6 +45,8 @@ function header(){
   imagenMe.className="me margin";
   imagenMe.src="images/steph.jpg";
   imagenMe.alt="Stephanie Hiyagon";
+  var ancla1=document.createElement('a');
+  ancla1.href="http://laboratoria.la/";
   var imagenLogo=document.createElement('img');
   imagenLogo.className="logo margin icono";
   imagenLogo.src="https://cdn-images-1.medium.com/fit/c/40/40/1*e6aeCHP28ulG1PI9ayuuJA.png";
@@ -55,7 +57,8 @@ function header(){
   div2.appendChild(spanSearch);
   div2.appendChild(divC);
   div2.appendChild(imagenMe);
-  div2.appendChild(imagenLogo);
+  div2.appendChild(ancla1);
+  ancla1.appendChild(imagenLogo);
   body.appendChild(header);
 }
 
@@ -138,13 +141,16 @@ function footer(){
   var spang=document.createElement('span');
   spang.className=span[7];
   spang.innerHTML="Describiendo el flujo de trabajo en ...";
+  var ancla2=document.createElement('a');
+  ancla2.href="https://medium.com/laboratoria-how-to/describiendo-el-flujo-de-trabajo-en-git-ede2eee5b589";
 
   divder.appendChild(spanc);
   divder.appendChild(spanf);
   divder.appendChild(spanm);
   divder.appendChild(spanb);
-  divder.appendChild(spanv);
-  divder.appendChild(spang);
+  ancla2.appendChild(spanv);
+  ancla2.appendChild(spang);
+  divder.appendChild(ancla2);
   footer.appendChild(divder);
   body.appendChild(footer);
 
