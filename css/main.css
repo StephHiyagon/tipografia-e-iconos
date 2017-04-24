@@ -6,10 +6,6 @@ body{
   margin-right:1rem;
 }
 
-header{
-  width:85%;
-}
-
 .barra{
   font-size: 2.25rem;
   color:rgba(0,0,0,.15);
@@ -31,7 +27,6 @@ img{
 .izquierda, .footizq{
   display:inline-block;
   position:relative;
-  margin-left: 14rem;
 }
 
 .derecha, .footder {
@@ -52,7 +47,7 @@ img{
   padding: 0.5625rem;
 }
 
-.search:hover{
+.search{
   cursor:pointer;
 }
 
@@ -124,12 +119,9 @@ h1{
 }
 
 section{
-  margin-left:18.125rem;
-  margin-right: 22rem;
+  margin-left:3.125rem;
   margin-top: 2.5rem;
-  margin-bottom: 7rem;
   overflow:auto;
-  height: 80%;
 }
 
 .footizq{
@@ -181,8 +173,8 @@ section{
 footer{
   width: 100%;
   border-top: 1px solid gray;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   padding:0.3125rem;
-  position:relative;
-  bottom:0;
+  position:absolute;
+  bottom: 0;
 }
